@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geulrara Calligraphy | 캘리그라피 강의</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=YOUR_CLIENT_ID"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Geulrara Calligraphy</div>
+            <ul class="nav-menu">
+                <li><a href="#about">강사 소개</a></li>
+                <li><a href="#classes">강의 메뉴</a></li>
+                <li><a href="#contact">위치 및 연락처</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="image-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">아름다운 글씨와 함께하는<br>특별한 시간</h1>
+                <p class="hero-subtitle">일상에 여유를 더하는 캘리그라피</p>
+                <a href="#classes" class="btn-primary">강의 둘러보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">강사 소개</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="80" fill="#f5f5f5"/>
+                            <text x="100" y="110" font-size="40" fill="#999" text-anchor="middle">글</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>안녕하세요, 글라라입니다</h3>
+                    <p>
+                        캘리그라피는 단순한 글씨를 넘어 마음의 여유와 아름다움을 표현하는 예술입니다.
+                        저는 10년 이상의 경험을 바탕으로 누구나 쉽게 시작할 수 있는 캘리그라피의 세계를 소개하고자 합니다.
+                    </p>
+                    <p>
+                        각자의 페이스에 맞춘 맞춤형 수업으로, 처음 시작하는 분들도 부담 없이
+                        아름다운 글씨를 완성할 수 있도록 돕겠습니다.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">년 경력</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">수강생</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">만족도</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes section">
+        <div class="container">
+            <h2 class="section-title">강의 메뉴</h2>
+            <div class="classes-grid">
+                <div class="class-card">
+                    <div class="class-image-container">
+                        <img src="images/class-oneday-teaching.jpg" alt="원데이클래스 강의 모습" class="class-image">
+                        <img src="images/class-oneday-work.jpg" alt="원데이클래스 작품" class="class-work-image">
+                    </div>
+                    <div class="class-icon">✍️</div>
+                    <h3>원데이클래스</h3>
+                    <p class="class-duration">2시간 · 1회 수업</p>
+                    <p class="class-description">
+                        처음 캘리그라피를 접하는 분들을 위한 입문 프로그램입니다.
+                        기본적인 브러시 펜 사용법부터 간단한 문구 완성까지 한 번에 배울 수 있습니다.
+                    </p>
+                    <ul class="class-features">
+                        <li>기초 브러시 펜 사용법</li>
+                        <li>간단한 알파벳 & 한글 연습</li>
+                        <li>나만의 문구 완성</li>
+                        <li>재료 제공</li>
+                    </ul>
+                    <div class="class-price">₩50,000</div>
+                </div>
+
+                <div class="class-card featured">
+                    <div class="featured-badge">인기</div>
+                    <div class="class-image-container">
+                        <img src="images/class-beginner-teaching.jpg" alt="입문반 강의 모습" class="class-image">
+                        <img src="images/class-beginner-work.jpg" alt="입문반 작품" class="class-work-image">
+                    </div>
+                    <div class="class-icon">🎨</div>
+                    <h3>입문반</h3>
+                    <p class="class-duration">4주 과정 · 주 1회</p>
+                    <p class="class-description">
+                        체계적으로 캘리그라피를 배우고 싶은 분들을 위한 정규 과정입니다.
+                        기본기부터 응용까지 단계별로 학습하며, 다양한 작품을 완성합니다.
+                    </p>
+                    <ul class="class-features">
+                        <li>기본 자세 및 도구 사용법</li>
+                        <li>알파벳 & 한글 기초</li>
+                        <li>문구 디자인 실습</li>
+                        <li>카드, 엽서 제작</li>
+                        <li>재료 제공</li>
+                    </ul>
+                    <div class="class-price">₩180,000</div>
+                </div>
+
+                <div class="class-card">
+                    <div class="class-image-container">
+                        <img src="images/class-hobby-teaching.jpg" alt="취미반 강의 모습" class="class-image">
+                        <img src="images/class-hobby-work.jpg" alt="취미반 작품" class="class-work-image">
+                    </div>
+                    <div class="class-icon">🖋️</div>
+                    <h3>취미반</h3>
+                    <p class="class-duration">8주 과정 · 주 1회</p>
+                    <p class="class-description">
+                        캘리그라피를 취미로 즐기고 싶은 분들을 위한 심화 과정입니다.
+                        다양한 스타일과 기법을 배우며 나만의 작품을 만들어봅니다.
+                    </p>
+                    <ul class="class-features">
+                        <li>다양한 캘리그라피 스타일</li>
+                        <li>레이아웃 및 구도 설계</li>
+                        <li>실용 작품 제작 (엽서, 초대장 등)</li>
+                        <li>개인 피드백 및 지도</li>
+                        <li>재료 제공</li>
+                    </ul>
+                    <div class="class-price">₩320,000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">위치 및 연락처</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>공방 위치</h3>
+                            <p>경기 부천시 원미구 장말로315번길 12<br>더파크힐2차아파트 상가2동 2층</p>
+                            <p class="contact-note">지하철 7호선 부천시청역 인근</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>전화 문의</h3>
+                            <p>010-1234-5678</p>
+                            <p class="contact-note">평일 10:00 - 20:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>이메일</h3>
+                            <p>info@geulrara-calli.com</p>
+                            <p class="contact-note">24시간 내 답변 드립니다</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h3>운영 시간</h3>
+                            <p>화 ~ 일요일: 10:00 - 20:00</p>
+                            <p>월요일: 휴무</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div id="map" class="naver-map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">Geulrara Calligraphy</div>
+                <p class="footer-text">아름다운 글씨로 일상에 여유를 더합니다</p>
+                <div class="footer-links">
+                    <a href="#about">강사 소개</a>
+                    <a href="#classes">강의 메뉴</a>
+                    <a href="#contact">위치 및 연락처</a>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Geulrara Calligraphy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
