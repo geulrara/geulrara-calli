@@ -114,6 +114,9 @@ window.addEventListener('scroll', () => {
 
 // Naver Map Initialization
 function initMap() {
+    // iframe 임베드 사용 시 #map 요소가 없으므로 바로 종료
+    if (!document.getElementById('map')) return;
+
     // 부천시 원미구 장말로315번길 12 좌표 (대략적인 좌표, 실제로는 geocoding API 사용 권장)
     const studioAddress = '경기 부천시 원미구 장말로315번길 12';
 

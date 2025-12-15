@@ -11,6 +11,10 @@
 - `class-oneday-teaching.jpg` - 원데이클래스 강의 모습 (권장 크기: 600x400px)
 - `class-oneday-work.jpg` - 원데이클래스 작품 사진 (권장 크기: 300x300px)
 
+### 나만의 손글씨 굿즈
+- `class-goods-teaching.jpg` - 굿즈 제작 강의 모습 (권장 크기: 600x400px)
+- `class-goods-work.jpg` - 굿즈 작품 사진 (권장 크기: 300x300px)
+
 ### 입문반
 - `class-beginner-teaching.jpg` - 입문반 강의 모습 (권장 크기: 600x400px)
 - `class-beginner-work.jpg` - 입문반 작품 사진 (권장 크기: 300x300px)
